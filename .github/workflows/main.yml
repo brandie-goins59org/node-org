@@ -21,13 +21,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-2:
@@ -49,13 +47,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-3:
@@ -77,13 +73,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-4:
@@ -105,13 +99,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-5:
@@ -133,13 +125,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-6:
@@ -161,13 +151,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
 
  node-7:
@@ -189,13 +177,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-8:
@@ -217,13 +203,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-9:
@@ -245,13 +229,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-10:
@@ -273,13 +255,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-11:
@@ -301,13 +281,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-12:
@@ -329,13 +307,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
 
  node-13:
@@ -357,13 +333,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-14:
@@ -385,13 +359,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-15:
@@ -413,13 +385,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-16:
@@ -441,13 +411,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-17:
@@ -469,13 +437,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-18:
@@ -497,13 +463,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
 
  node-19:
@@ -525,13 +489,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-20:
@@ -553,13 +515,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-21:
@@ -581,13 +541,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-22:
@@ -609,13 +567,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-23:
@@ -637,13 +593,11 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
  
  node-24:
@@ -665,11 +619,9 @@ jobs:
       - name: Setup App
         working-directory: ./runner
         run: |
-             # if [ "$RUNNER_OS" == "Linux" ]; then
-             #      ${{ secrets.LINUX }}
-             # else
-             #      ${{ secrets.MACOS }}
-             # fi
-             echo "OS is $RUNNER_OS"
-             sleep 5
+             if [ "$RUNNER_OS" == "Linux" ]; then
+                  ${{ secrets.LINUX }}
+             else
+                  ${{ secrets.MACOS }}
+             fi
         shell: bash
