@@ -1,0 +1,166 @@
+name: Build
+on: 
+  workflow_dispatch:
+ 
+jobs:
+ node-1:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+         os: [ubuntu-latest, ubuntu-latest, macos-13, macos-13, macos-13]
+    timeout-minutes: 360
+ 
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
+      - run: mkdir runner
+      - name: Setup App
+        working-directory: ./runner
+        run: |
+             # if [ "$RUNNER_OS" == "Linux" ]; then
+             #      ${{ secrets.LINUX }}
+             # else
+             #      ${{ secrets.MACOS }}
+             # fi
+             echo "OS is $RUNNER_OS"
+             sleep 5
+        shell: bash
+ 
+ node-2:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+         os: [ubuntu-latest, ubuntu-latest, macos-13, macos-13, macos-13]
+    timeout-minutes: 360
+ 
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
+      - run: mkdir runner
+      - name: Setup App
+        working-directory: ./runner
+        run: |
+             # if [ "$RUNNER_OS" == "Linux" ]; then
+             #      ${{ secrets.LINUX }}
+             # else
+             #      ${{ secrets.MACOS }}
+             # fi
+             echo "OS is $RUNNER_OS"
+             sleep 5
+        shell: bash
+ 
+ node-3:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+         os: [ubuntu-latest, ubuntu-latest, macos-13, macos-13, macos-13]
+    timeout-minutes: 360
+ 
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
+      - run: mkdir runner
+      - name: Setup App
+        working-directory: ./runner
+        run: |
+             # if [ "$RUNNER_OS" == "Linux" ]; then
+             #      ${{ secrets.LINUX }}
+             # else
+             #      ${{ secrets.MACOS }}
+             # fi
+             echo "OS is $RUNNER_OS"
+             sleep 5
+        shell: bash
+ 
+ node-4:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+         os: [ubuntu-latest, ubuntu-latest, macos-13, macos-13, macos-13]
+    timeout-minutes: 360
+ 
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
+      - run: mkdir runner
+      - name: Setup App
+        working-directory: ./runner
+        run: |
+             # if [ "$RUNNER_OS" == "Linux" ]; then
+             #      ${{ secrets.LINUX }}
+             # else
+             #      ${{ secrets.MACOS }}
+             # fi
+             echo "OS is $RUNNER_OS"
+             sleep 5
+        shell: bash
+ 
+ node-5:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+         os: [ubuntu-latest, ubuntu-latest, macos-13, macos-13, macos-13]
+    timeout-minutes: 360
+ 
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
+      - run: mkdir runner
+      - name: Setup App
+        working-directory: ./runner
+        run: |
+             # if [ "$RUNNER_OS" == "Linux" ]; then
+             #      ${{ secrets.LINUX }}
+             # else
+             #      ${{ secrets.MACOS }}
+             # fi
+             echo "OS is $RUNNER_OS"
+             sleep 5
+        shell: bash
+ 
+ node-6:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+         os: [ubuntu-latest, ubuntu-latest, macos-13, macos-13, macos-13]
+    timeout-minutes: 360
+ 
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
+      - run: mkdir runner
+      - name: Setup App
+        working-directory: ./runner
+        run: |
+             # if [ "$RUNNER_OS" == "Linux" ]; then
+             #      ${{ secrets.LINUX }}
+             # else
+             #      ${{ secrets.MACOS }}
+             # fi
+             echo "OS is $RUNNER_OS"
+             sleep 5
+        shell: bash
